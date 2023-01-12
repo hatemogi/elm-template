@@ -1,0 +1,28 @@
+{
+  "name": "elm-template",
+  "version": "0.1.0",
+  "description": "Elm basic web-app template",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx elm make src/Main.elm --optimize --output=public/app.js",
+    "live": "npx elm-live src/Main.elm --pushstate -d public -- --output=public/app.js --debug",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hatemogi/elm-template.git"
+  },
+  "keywords": [
+    "elm"
+  ],
+  "author": "Daehyun Kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hatemogi/elm-template/issues"
+  },
+  "homepage": "https://github.com/hatemogi/elm-template#readme",
+  "devDependencies": {
+    "elm": "^0.19.1-5",
+    "elm-format": "^0.8.5",
+    "elm-live": "^4.0.2"
+  }
+}
